@@ -49,3 +49,9 @@ while True:
         
     except ValueError: 
         print("Помилка: введіть коректні числа!")
+def modulo(a, b): 
+    """Остача від ділення""" 
+    if b != 0: 
+        return a % b 
+    else: 
+        return "Помилка: ділення на нуль!"
